@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    text-align: center;
+}
+
+h1{
+    margin: 5% 0% 3% 0%;
+    font-family: "arial";
+}
+
+#container{
+    font-family: "Calibri";
+    text-align: center;
+    margin : 0% 0% 2% 0%;
+}
+#computer-el{
+    font-family: "Calibri";
+}
+#player-el{
+    margin : 0% 0% 2% 0%;
+}
+button{
+    padding:1% 2%;
+}
+#startgame-el{
+    color:white;
+    border:none;
+    background-color: rgb(75, 190, 110);
+    cursor: pointer;
+}
+#startgame-el:disabled{
+    color:white;
+    border:none;
+    background-color: rgb(173, 211, 184);
+    cursor: pointer;
+}
+#retry-el{
+    background-color: rgb(183, 150, 214);
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+#reset-el{
+    margin-top:2%;
+    background-color:crimson;
+    color:white;
+    border:none;    
+    cursor: pointer;
+}
+#message-el{
+    font-size: 20px;
+    font-family:'Trebuchet MS';
+    text-align: center;
+    padding-bottom:30px;
+}
+#win-el{
+    margin-top:2%;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
